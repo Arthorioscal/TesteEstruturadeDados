@@ -36,7 +36,7 @@ class ArvoreBinaria:
 if __name__ == "__main__":
     arvore = ArvoreBinaria()
     raiz = arvore.inserir(10, 5, 15)
-    
+
     filhos = arvore.obter_filhos(raiz)
     print(f"Valor do nó: {raiz.valor}")
     print(f"Filhos: {filhos}")
